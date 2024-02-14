@@ -3,7 +3,7 @@ import pg from "pg";
 //or native libpq bindings
 //var pg = require('pg').native
 
-// var conString =
+var conString =  "postgres://fhvvtxxn:BEdbIFvWMUUfOLE5p6j028V3mXbTaqg6@cornelius.db.elephantsql.com/fhvvtxxn";
  //Can be found in the Details page
 var client = new pg.Client(conString);
 
